@@ -1,1 +1,2 @@
-add_lunch_combo lineage_frd-userdebug
+add_lunch_combo omni_frd-userdebug
+ add_lunch_combo omni_frd-user

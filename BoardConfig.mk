@@ -147,7 +147,7 @@ ENABLE_WEBGL := true
 
 # Vendor
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
-TARGET_COPY_OUT_VENDOR := system
+TARGET_COPY_OUT_VENDOR := system/vendor
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true

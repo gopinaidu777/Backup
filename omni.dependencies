@@ -1,0 +1,20 @@
+[
+   {
+     "remote": "omnirom",
+     "repository": "android_vendor_nxp-nfc_opensource_frameworks",
+     "target_path": "vendor/nxp-nfc/opensource/frameworks",
+     "revision": "android-7.1"
+   },
+   {
+     "remote": "omnirom",
+     "repository": "android_vendor_nxp-nfc_opensource_libnfc-nci",
+     "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
+     "revision": "android-7.1"
+   },
+   {
+     "remote": "omnirom",
+     "repository": "android_vendor_nxp-nfc_opensource_Nfc",
+     "target_path": "vendor/nxp-nfc/opensource/Nfc",
+     "revision": "android-7.1"
+   }
+ ]

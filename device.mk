@@ -103,7 +103,7 @@ PRODUCT_COPY_FILES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    HisiDoze
+    doze
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     nqnfcse_access.xml \
     Tag
 
+#Omni Charger
+ PRODUCT_PACKAGES += \
+     omni_charger_res_images
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(LOCAL_PATH)/prebuilts/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
@@ -174,6 +178,3 @@ PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
-
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
